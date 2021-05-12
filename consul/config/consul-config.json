@@ -1,0 +1,21 @@
+{
+  "bootstrap_expect": 1,
+  "datacenter": "dc1",
+  "data_dir": "/consul/data",
+  "log_level": "DEBUG",
+  "server": true,
+  "ui": true,
+  "ports": {
+    "dns": 53
+  },
+  "client_addr": "0.0.0.0",
+  "connect": {
+    "enabled": true
+  },
+  "ui_config": {
+		"enabled": true
+	},
+  "telemetry": {
+    "disable_compat_1.9": true
+  }
+}
